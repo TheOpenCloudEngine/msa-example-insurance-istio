@@ -8,3 +8,4 @@ spring:
   profiles:
     active: prod
 
+credit-service.ribbon.listOfServers: http://localhost:8090
