@@ -20,7 +20,6 @@ import org.springframework.transaction.jta.JtaTransactionManager;
 import javax.sql.DataSource;
 
 @SpringBootApplication
-@EnableEurekaClient
 @EnableFeignClients(basePackageClasses = {CreditService.class})
 public class InsuranceServiceApplication extends Metaworks4BaseApplication {
 

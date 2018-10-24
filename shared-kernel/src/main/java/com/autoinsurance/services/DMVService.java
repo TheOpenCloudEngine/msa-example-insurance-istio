@@ -13,7 +13,7 @@ import java.util.List;
  * Created by uengine on 2017. 12. 3..
  */
 
-@FeignClient(url = "http://dmv-service:8080")
+@FeignClient(name="dmv", url = "http://dmv-service:8080")
 public interface DMVService {
 
     @RequestMapping(path="/owners/{ssn}/vehicles", method= RequestMethod.GET)
