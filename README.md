@@ -8,8 +8,8 @@
 
 cd insurance-service
 mvn package -B
-docker build -t gcr.io/uengine-istio-test/insurance:v1 .
-docker push gcr.io/uengine-istio-test/insurance:v1
+docker build -t gcr.io/uengine-istio-test/insurance:v15 .
+docker push gcr.io/uengine-istio-test/insurance:v15
 kubectl apply -f<(istioctl kube-inject -f Deployment.yaml )
 kubectl apply -f Service.yaml
 
