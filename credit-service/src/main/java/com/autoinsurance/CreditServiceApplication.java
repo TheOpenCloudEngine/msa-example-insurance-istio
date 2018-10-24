@@ -14,7 +14,6 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import javax.sql.DataSource;
 
 @SpringBootApplication
-@EnableEurekaClient
 public class CreditServiceApplication extends Metaworks4BaseApplication {
 
 	/**

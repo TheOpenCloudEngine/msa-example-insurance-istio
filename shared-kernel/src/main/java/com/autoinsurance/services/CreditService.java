@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * Created by uengine on 2017. 12. 3..
  */
 
-@FeignClient(serviceId = "credit-service")
+@FeignClient(url = "http://credit-service:8080")
 public interface CreditService {
 
     @RequestMapping(path="/credits/{ssn}", method= RequestMethod.GET)
