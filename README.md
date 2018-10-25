@@ -1,6 +1,8 @@
 # sw-modeling-example-msa
 
-## This is Micro Service Architecture edition of sw-modeling-example by service mesh (Istio and Kubernetes)
+## This is Micro Service Architecture edition of the msa-example-insurance by service mesh (Istio and Kubernetes)
+
+[msa-example-insurance](https://github.com/TheOpenCloudEngine/msa-example-insurance)
 
 ### service deploy
 
