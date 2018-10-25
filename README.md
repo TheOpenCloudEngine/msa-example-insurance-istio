@@ -2,7 +2,7 @@
 
 ## This is Micro Service Architecture edition of the msa-example-insurance by service mesh (Istio and Kubernetes)
 
-[msa-example-insurance](https://github.com/TheOpenCloudEngine/msa-example-insurance)
+[See also:  msa-example-insurance](https://github.com/TheOpenCloudEngine/msa-example-insurance)
 
 ### service deploy
 
