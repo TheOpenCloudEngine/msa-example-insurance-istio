@@ -1,6 +1,8 @@
 # sw-modeling-example-msa
 
-## This is Micro Service Architecture edition of sw-modeling-example by service mesh (Istio and Kubernetes)
+## This is Micro Service Architecture edition of the msa-example-insurance by service mesh (Istio and Kubernetes)
+
+[See also:  msa-example-insurance](https://github.com/TheOpenCloudEngine/msa-example-insurance)
 
 ### service deploy
 
@@ -8,8 +10,8 @@
 
 cd insurance-service
 mvn package -B
-docker build -t gcr.io/uengine-istio-test/insurance:v1 .
-docker push gcr.io/uengine-istio-test/insurance:v1
+docker build -t gcr.io/uengine-istio-test/insurance:v15 .
+docker push gcr.io/uengine-istio-test/insurance:v15
 kubectl apply -f<(istioctl kube-inject -f Deployment.yaml )
 kubectl apply -f Service.yaml
 
